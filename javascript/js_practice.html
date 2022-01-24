@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicing js</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #main {
+        /* font-family: 'Courier New', Courier, monospace; */
+        background-color: rgb(109, 96, 96);
+
+
+    }
+
+    #main ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main ul li {
+        color: white;
+        padding: 8px;
+        margin: 20px;
+        ;
+        font-weight: bold;
+        /* background-color: orangered; */
+        /* border: 2px solid; */
+        border-radius: 8px;
+
+    }
+
+    #main ul li:hover {
+        background-color: red;
+
+    }
+</style>
+
+<body>
+    <div id="main">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>More</li>
+        </ul>
+    </div>
+    <div class="contsiner" id="para">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, voluptates! In, rerum quas sunt fugiat
+            atque
+            aspernatur minus. Dolore quisquam asperiores amet deleniti voluptatibus maxime officiis adipisci tenetur
+            quasi
+            commodi!</p>
+    </div>
+    <!-- <button class="btn" onclick="togglehide()">Show/Hide</button> -->
+
+    <!-- <div class="dat">Time now is <span id="time"></span></div> -->
+
+
+    <script>
+
+        // //using loops in JS
+
+        // let friends = ["sulav", "yunesh", "saurab"];
+        // // friends.forEach(function greet(element) {
+        // //     console.log("Hello " + element);
+        // // });
+
+        // for (element of friends) {
+        //     console.log("Hello " + element);
+        // };
+
+        // let employee = {
+        //     name: "Sulav",
+        //     skill: "programing",
+        //     salary: 2000
+        // }
+
+
+        // for (key in employee) {
+        //     console.log(`The ${key} is ${employee[key]}`);
+        // }
+
+        // //Navigation of DOM
+        // let main = document.getElementById('main');
+        // let para = document.getElementsByClassName('container');
+        // let selectone = document.querySelector('.container');
+        // // let selectall= document.queryselectorAll(`.container`);
+
+
+        // // Events in JS
+        // function togglehide() {          //tooglehide() is already defined above in html inside btn
+        //     let btn = document.getElementById(`btn`);
+        //     let para = document.getElementById('para');
+
+        //     if (para.style.display != 'none')
+        //         para.style.display = 'none';
+        //     else
+        //         para.style.display = 'block';
+        // }
+        // para: addEventListener('mouseover', function run() {
+        //     alert("Mouse inside.");
+        // });
+
+        // //Set interval and set timeout
+        // function greet(name) {
+        //     console.log("Goodmorning " + name);
+        // }
+        // setTimeout(greet, 2000, "Sulav");
+
+        // let timeout=setTimeout(greet, 2000, "Sulav");
+        // clearTimeout(timeout);
+
+        //Settig Date and time
+        // function displayTime() {
+        //     time = new Date();
+        //     console.log(time);
+        //     document.getElementById('time').innerHTML = time;
+        // }
+        // setInterval(displayTime, 1000);
+
+
+
+        // // Basics of arrow function
+        // let sum = (a, b) => a + b;
+        // let suma = a => a / 5;
+
+        // //Arrow function inside an object
+        // let obj = {
+        //     greeting: "Good Morning",
+        //     names: ["Sulav", "Yunesh", "Roshan"],
+
+        //     speak() {
+        //         this.names.forEach((student) => {
+        //             console.log(this.greeting + " Hello! " + student);
+        //         });
+        //     }
+        // }
+        // obj.speak();
+
+
+
+        //Math objects in JS
+        // displays all the functions and constants used in maths
+        // console.log(Math);
+        // let a=11.8889;
+        // console.log(Math.round(a));
+        // console.log(Math.sin(Math.PI/2));
+        // console.log(Math.random());
+
+        // // programto display a random number every 2 seconds.
+        // function displayrandom(value) {
+        //     console.log(value+Math.random());
+        // }
+        // setInterval(displayrandom, 2000,"The numbeer is: ");
+
+
+
+
+
+        // JSON
+        // let obj = {
+        //     name: "Sulav",
+        //     laptop: "acer",
+        // }
+        // console.log(obj);
+
+        // let newobj = JSON.stringify(obj);       //converts object to an array.
+        // console.log(newobj);
+
+        // newobj = newobj.replace("acer", "acer helios 300");
+        // console.log(newobj);
+
+        // newobj = JSON.parse(newobj);      //converts string to an onject.
+        // console.log(newobj);
+
+    </script>
+</body>
+
+</html>
