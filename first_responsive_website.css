@@ -135,6 +135,7 @@ html{
 /* Client Section */
 #client-section {
     position: relative;
+    z-index: -1;
 }
 
 #client-section::before {
@@ -143,7 +144,7 @@ html{
     background: url(bg6.jpg);
     width: 100%;
     height: 100%;
-    z-index: -1;
+    /* z-index: -1; */
     opacity: 0.4;
 }
 
